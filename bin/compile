@@ -167,8 +167,8 @@ source $BIN_DIR/steps/pylibmc
 source $BIN_DIR/steps/cryptography
 
 # We need it to work r2py
-export PATH=/app/vendor/R/bin:$PATH
-export R_HOME=/app/vendor/R/
+#export PATH=/app/vendor/R/bin:$PATH
+#export R_HOME=/app/vendor/R/
 
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
